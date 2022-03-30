@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            background-color: #1667dc;
+            color: #ffffff;
+            width: 50px;
+            height: 30px;
+        }
+        label{
+            color:white;
+        }
+        fieldset{
+            width: 55%;
+        }
+        footer {
+         position: absolute;
+         bottom:0;
+         width: 98%;
+        }
+        ul{
+            color:#ffffff
+        }
+        #city{
+            
+            color: #0e72f0;
+            font-weight: bold;
+        }
+       span li{
+            color: #0ef047;
+            font-style: italic;
+        }
+
+     
+    </style>
+</head>
+<body style="background-image: url('Background.jpg')";>
+<header style="height: 10%; border: 5px solid white; color:#5e95e4">Header</header>
+
+    <div style="height 100vh">
+       
+        <h1 style="font-size: 20px; color: #1667dc;"> Registration form</h1>
+       <fieldset>
+           <ul>
+           <form action="">
+           <li><label for="mail">E-mail</label></li>
+           <input type="email" name="mail" id="mail"><br><br>
+           <li><label for="name"><b>First name</b></label></li>
+           <input type="name" min="10"><br><br>
+           <li><label for="last_name"><i>Last name</i></label></li>
+           <input type="last_name" min="15"><br><br>
+           <li><label for="number">Age</label></li>
+           <input type="number" min="18" max="35" onkeydown="return false"><br><br>
+           <label for="button"></label>
+           <button>Save</button>
+        </ul>
+       </form>
+    </fieldset>
+    <h3 style="color:#ffffff">Students list:</h3>
+    <table>
+        <style>
+            table,tr,td{border: 2px solid rgb(255, 255, 255);
+            color: #ffffff; width:90vh; background-color: #1667dc;}
+            
+        </style>
+        <thead><th>First name</th><th>Last name</th><th>City</th><th>Email</th></thead>
+        <tbody>
+            <table>
+                <th>first name</th><th>last name</th><th>city</th><th>email</th>
+                <tr><td>Netanel</td><td>Yaso</td><td>Rehovot</td><td>yonatan2@gmail.com<td></tr>
+                <tr><td>Dalia</td><td>Zegaya</td><td>Rosh Haain</td><td>yonatan2@gmail.com</td></tr>
+                <tr><td>Or</td><td>Gadamo</td><td>Rehovot</td><td>yonatan2@gmail.com</td></tr>
+                <tr><td>Netanel</td><td>Tesfai</td><td>Rehovot</td><td>yonatan2@gmail.com</td></tr>
+                <tr><td>Natan</td><td>Belay</td><td>Rehovot</td><td>yonatan2@gmail.com</td></tr>
+                <tr><td>Chen</td><td>semo</td><td>Rishon Lechiyon</td><td>yonatan2@gmail.com</td></tr>
+                <tr><td>Yonatan</td><td>Itzack</td><td>Rishon Lechiyon</td><td>yonatan2@gmail.com</td></tr>
+                <tr><td>Daniel</td><td>Malada</td><td>Jerusalem</td><td>yonatan2@gmail.com</td></tr>
+                <tr><td>Aviel</td><td>Teka</td><td>Beher Jacob</td><td>yonatan2@gmail.com</td></tr>
+                <tr><td>Daniel</td><td>Gadamo</td><td>Afula</td><td>yonatan2@gmail.com</td></tr>
+                <tr><td>Yosi</td><td>balacho</td><td>Petach Tikva</td><td>yonatan2@gmail.com</td></tr>
+                <tr><td>Eldad</td><td>Brahano</td><td>Hedera</td><td>yonatan2@gmail.com</td></tr>
+                <tr><td>Yehuda</td><td>Sanay</td><td>Rehovot</td><td>yonatan2@gmail.com</td></tr>
+                <tr><td>Solomon</td><td>Avraham</td><td>Rishon Lechiyon</td><td>yonatan2@gmail.com</td></tr>
+                <tr><td>Lior</td><td>Dawit</td><td>Kiryat Malachi</td><td>yonatan2@gmail.com</td></tr>
+                <tr><td>Slomo</td><td>Haiylo</td><td>Kiryat Malachi</td><td>yonatan2@gmail.com</td></tr>
+                <tr><td>Shimon</td><td>Berri</td><td>Kiryat Malachi</td><td>yonatan2@gmail.com</td></tr>
+                <tr><td>Abaynech</td><td>Asia</td><td>Hifa</td><td>yonatan2@gmail.com</td></tr>
+                <tr><td>Yaso</td><td>Melako</td><td>Jerusalem</td><td>yonatan2@gmail.com</td></tr>
+                <tr><td>Sara</td><td>Likaount</td><td>Natanya</td><td>yonatan2@gmail.com</td></tr>
+                <tr><td>Ran</td><td>Gadamo</td><td>Kfar Yona</td><td>yonatan2@gmail.com</td></tr>
+                <tr><td>Lior</td><td>Aiytegev</td><td>Ashkelon</td><td>yonatan2@gmail.com/td></tr>
+                <tr><td>Zenevo</td><td>Erday</td><td>Rishon Lechiyon</td><td>yonatan2@gmail.com</td></tr>
+                <tr><td>Batel</td><td>Haiylo</td><td>Rehovot</td><td>yonatan2@gmail.com</td></tr>
+            </table>
+        </tbody>
+    </table>
+    <span>
+    <ul>
+        <li id="city">Rishon Lezyion</li>
+        <ul>
+            <li>Yonatan</li>
+            <li>Znavo</li>
+            <li>Chen</li>
+        </ul>
+        <li id="city">Rehovot</li>
+        <ul>
+            <li>Natanel</li>
+            <li>Natanel</li>
+            <li>Natan</li>
+            <li>Batel</li>
+            <li>Daniel</li>
+            <li>Or</li>
+            <li>Aviel</li>
+            <li>Lior</li>
+        </ul>
+        <li id="city">Natania</li>
+        <ul>
+            <li>Sara</li>
+        </ul>
+        <li id="city">Haifa</li>
+        <ul>
+            <li>Abayinch</li>
+        </ul>
+        <li id="city">Beer Yakov</li>
+        <ul>
+            <li>Yossi</li>
+        </ul>
+        <li id="city"> Jerusalm</li>
+        <ul>
+            <li>Daniel</li>
+            <li>Yasso</li>
+        </ul>
+        <li id="city">Hadera</li>
+        <ul>
+            <li>Solomon</li>
+        </ul>
+        <li id="city">Petch Tikva</li>
+        <ul>
+            <li>Yehuda</li>
+        </ul>
+        <li id="city">Ashkelon</li>
+        <ul>
+            <li>Lior</li>
+        </ul>
+        <li id="city">Rosh Haain</li>
+        <ul>
+            <li>Dalia</li>
+        </ul>
+        <li id="city">Afula</li>
+        <ul>
+            <li>Eldad</li>
+        </ul>
+        <li id="city">Kfar Yona</li>
+        <ul>
+            <li>Ran</li>
+        </ul>
+        <li id="city">Kriat Malchi</li>
+        <ul>
+            <li>Shimon</li>
+            <li>Shlomo</li>
+            <li>Lior</li>
+        </ul>
+    </ul>
+</span>
+    </div><br>
+    <footer style="height: 10vh; border: 5px solid white; color:#5e95e4;position: fixed;bottom: 0; background-color: rgb(255, 102, 102);">Footer</footer>
+</body>
+</html>
